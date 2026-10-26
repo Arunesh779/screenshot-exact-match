@@ -3,7 +3,7 @@ import { useState } from "react";
 import { z } from "zod";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
-import { AuthCard, Field } from "./login";
+import { AuthCard, Field } from "@/components/AuthForm";
 
 export const Route = createFileRoute("/register")({
   head: () => ({

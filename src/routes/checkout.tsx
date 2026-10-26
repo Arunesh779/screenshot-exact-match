@@ -12,7 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useAuth } from "@/lib/auth";
 import { useCartDetails } from "@/lib/use-cart-details";
 import { formatPrice } from "@/lib/pricing";
-import { Field } from "./login";
+import { Field } from "@/components/AuthForm";
 
 export const Route = createFileRoute("/checkout")({
   head: () => ({
